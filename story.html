@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John's Story</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      line-height: 1.6;
+      background: #f0f4f8;
+      color: #333;
+    }
+    header {
+      background: #3b82f6;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background: #2563eb;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      padding: 0.75rem 1.25rem;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #1d4ed8;
+    }
+    main {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 1rem;
+      display: grid;
+      gap: 2rem;
+    }
+    .story {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .story img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .story-content {
+      padding: 1rem;
+    }
+    footer {
+      background: #1e3a8a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Adventures of John</h1>
+  </header>
+
+  <nav>
+    <a href="#story1">Story 1</a>
+    <a href="#story2">Story 2</a>
+    <a href="#story3">Story 3</a>
+    <a href="#story4">Story 4</a>
+    <a href="#story5">Story 5</a>
+    <a href="#story6">Story 6</a>
+    <a href="#story7">Story 7</a>
+    <a href="#story8">Story 8</a>
+    <a href="#story9">Story 9</a>
+    <a href="#story10">Story 10</a>
+  </nav>
+
+  <main>
+    <!-- Stories -->
+    <!-- Repeat the following block for each story -->
+    <div id="story1" class="story">
+      <img src="image1.jpg" alt="Story 1">
+      <div class="story-content">
+        <h2>1. John and the New Friend</h2>
+        <p>John is playing in the park when he notices a little girl sitting alone on a bench. He gathers his courage and walks over to ask if she wants to play. The little girl smiles and says yes.</p>
+      </div>
+    </div>
+
+    <div id="story2" class="story">
+      <img src="image2.jpg" alt="Story 2">
+      <div class="story-content">
+        <h2>2. Learning to Share</h2>
+        <p>John and his new friend are playing with a ball. When the ball rolls far away, his friend wants to go fetch it first, but John decides to give the ball to her and waits.</p>
+      </div>
+    </div>
+
+    <div id="story3" class="story">
+      <img src="image3.jpg" alt="Story 3">
+      <div class="story-content">
+        <h2>3. Cleaning the Park Together</h2>
+        <p>John and his new friend notice some litter in the park. They decide to pick up the trash together and clean up the park.</p>
+      </div>
+    </div>
+
+    <div id="story4" class="story">
+      <img src="image4.jpg" alt="Story 4">
+      <div class="story-content">
+        <h2>4. Helping the Lost Cat</h2>
+        <p>While walking in the park, John and his friend find a lost cat. They take the cat and try to find its owner.</p>
+      </div>
+    </div>
+
+    <div id="story5" class="story">
+      <img src="image5.jpg" alt="Story 5">
+      <div class="story-content">
+        <h2>5. Facing Fears</h2>
+        <p>One day, John hears strange noises at night and feels scared. His mom tells him that courage isn’t about not being afraid, but about knowing how to face fear.</p>
+      </div>
+    </div>
+
+    <div id="story6" class="story">
+      <img src="image6.jpg" alt="Story 6">
+      <div class="story-content">
+        <h2>6. Working Together</h2>
+        <p>John and his friend decide to build a big block castle. They divide the work—one builds, the other makes sure it’s stable.</p>
+      </div>
+    </div>
+
+    <div id="story7" class="story">
+      <img src="image7.jpg" alt="Story 7">
+      <div class="story-content">
+        <h2>7. Listening to Others' Opinions</h2>
+        <p>John and his friend are arguing about how to play a game. They listen to each other's opinions and together decide on the best way to play.</p>
+      </div>
+    </div>
+
+    <div id="story8" class="story">
+      <img src="image8.jpg" alt="Story 8">
+      <div class="story-content">
+        <h2>8. Being Thankful Every Day</h2>
+        <p>John’s mom reminds him that he should be grateful for the people and things around him every day. John starts to thank everyone who helps him and appreciates every happy moment.</p>
+      </div>
+    </div>
+
+    <div id="story9" class="story">
+      <img src="image9.jpg" alt="Story 9">
+      <div class="story-content">
+        <h2>9. Admitting Mistakes</h2>
+        <p>John accidentally breaks his friend's toy during a game. He honestly admits his mistake and apologizes.</p>
+      </div>
+    </div>
+
+    <div id="story10" class="story">
+      <img src="image10.jpg" alt="Story 10">
+      <div class="story-content">
+        <h2>10. Love and Friendship</h2>
+        <p>At the end of the story, John and all of his friends celebrate their day together, sharing laughter and joy. They make a wish that they will always support each other in the future.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Adventures of John. All rights reserved.</p>
+  </footer>
+</body>
+</html>
